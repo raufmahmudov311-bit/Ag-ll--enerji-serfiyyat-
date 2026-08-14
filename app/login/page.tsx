@@ -32,7 +32,7 @@ export default function LoginPage() {
   }
 
   return (
-    <main className="flex min-h-screen items-center justify-center bg-base-950 bg-noise-grid px-6 py-12">
+    <main className="flex min-h-screen items-start justify-center overflow-y-auto bg-base-950 bg-noise-grid px-6 py-12">
       <div className="w-full max-w-sm">
         <div className="mb-8 flex flex-col items-center text-center">
           <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-volt-500/15 text-volt-400">
