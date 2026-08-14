@@ -57,6 +57,7 @@ export default function RegisterPage() {
               className="mt-1.5 w-full rounded-lg border border-base-600 bg-base-850 px-3.5 py-2.5 text-sm text-ink-100 outline-none focus:border-volt-500"
               placeholder="Adınız Soyadınız"
               autoComplete="name"
+              style={{ colorScheme: "dark" }}
             />
           </label>
 
@@ -69,6 +70,7 @@ export default function RegisterPage() {
               className="mt-1.5 w-full rounded-lg border border-base-600 bg-base-850 px-3.5 py-2.5 text-sm text-ink-100 outline-none focus:border-volt-500"
               placeholder="sizin@email.com"
               autoComplete="email"
+              style={{ colorScheme: "dark" }}
             />
           </label>
 
@@ -81,6 +83,7 @@ export default function RegisterPage() {
               className="mt-1.5 w-full rounded-lg border border-base-600 bg-base-850 px-3.5 py-2.5 text-sm text-ink-100 outline-none focus:border-volt-500"
               placeholder="Ən azı 6 simvol"
               autoComplete="new-password"
+              style={{ colorScheme: "dark" }}
             />
           </label>
 
