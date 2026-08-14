@@ -52,6 +52,7 @@ export default function LoginPage() {
               className="mt-1.5 w-full rounded-lg border border-base-600 bg-base-850 px-3.5 py-2.5 text-sm text-ink-100 outline-none focus:border-volt-500"
               placeholder="sizin@email.com"
               autoComplete="email"
+              style={{ colorScheme: "dark" }}
             />
           </label>
 
@@ -64,6 +65,7 @@ export default function LoginPage() {
               className="mt-1.5 w-full rounded-lg border border-base-600 bg-base-850 px-3.5 py-2.5 text-sm text-ink-100 outline-none focus:border-volt-500"
               placeholder="••••••••"
               autoComplete="current-password"
+              style={{ colorScheme: "dark" }}
             />
           </label>
 
